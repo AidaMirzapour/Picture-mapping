@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    width: full;
+    justify-content: center;
+    height: full;
+    align-items: center;
+    align-content: center;
+    margin-top: 70px;
+}
+
+area#ears,#nose,#lips,#neck,#eyes:hover{
+    cursor: pointer;
+
+}

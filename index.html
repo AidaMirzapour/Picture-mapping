@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picture mapping</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="./images/headAnatomy.png" alt="head-Anatomy" width="580px" height="580px" usemap="#headmap"/>
+    <map name="headmap">
+        <area id="ears" target="_blank" alt="ears" title="ears" onclick="alert('ears');" coords="377,295,399,221,415,209,442,214,450,236,447,255,439,271,426,290,404,307,384,309" shape="poly">
+        <area id="nose" target="_blank" alt="nose" title="nose" onclick="alert('nose');" coords="171,296,139,300,117,280,121,290,121,268,130,255,142,235,152,214,165,197,181,204,183,218,188,229,194,248,181,278,179,288,184,268,191,256,175,277,178,289" shape="poly">
+        <area id="lips" target="_blank" alt="lips" title="lips" onclick="alert('lips');" coords="203,343,175,352,146,350,142,338,142,330,139,318,163,322" shape="poly">
+        <area id="neck" target="_blank" alt="neck" title="neck"  onclick="alert('neck');" coords="225,422,352,361,419,358,423,384,430,410,448,443,474,474,498,498,215,527,230,466,235,442" shape="poly">
+        <area id="eyes" target="_blank" alt="eyes" title="eyes" onclick="alert('eyes');" coords="146,224,143,211,152,200,153,211,160,203,189,211,217,205,239,209,250,216,236,232,210,233,193,220,179,212,165,206" shape="poly">
+      </map>
+    <!-- <script src="index.js"></script> -->
+  </body>
+</html>
